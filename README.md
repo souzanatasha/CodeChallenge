@@ -58,7 +58,7 @@ public class PayMo {
         
         for (int i = 0; i < payment.size(); i++){
             //feature 1
-            if(data.contains(data.get(i))){
+            if(data.contains(payment.get(i))){
                 out.println("trusted");
             } else {
                 out.println("unverified");
